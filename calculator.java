@@ -1,3 +1,4 @@
+package calculator;
 
 public class calculator {
     public double divide(double a, double b) {
@@ -13,6 +14,10 @@ public class calculator {
 
     public int subtract(int a, int b) {
         return a - b;
+    }
+
+    public static int add(int a , int b){
+        return a+b;
     }
 
 }
