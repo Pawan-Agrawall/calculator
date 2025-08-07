@@ -1,3 +1,4 @@
+package calculator;
 
 public class calculator {
     public double divide(double a, double b) {
@@ -5,6 +6,10 @@ public class calculator {
             throw new IllegalArgumentException("Division by zero is not allowed.");
         }
         return a / b;
+    }
+
+        public static int multiply(int a,int b){
+        return a*b;
     }
 
 }
